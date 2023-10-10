@@ -19,6 +19,10 @@ public class Main {
         Animal animal = new Animal("Donkey");
         System.out.println(animal.getName());
 
+        animal.showMessages("Hello", "Hi");
+        animal.showMessages("One");
+        animal.showMessages("One", "Two", "Three");
+
     }
 }
 
@@ -40,6 +44,12 @@ class Animal{
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public void showMessages(String... args) {
+        for (String arg : args) {
+            System.out.println(arg);
+        }
     }
 }
 // 1h:05m
