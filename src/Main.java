@@ -1,3 +1,8 @@
+import java.util.Random;
+import java.util.Random;
+import java.util.*;
+import java.util.Random;
+
 // Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
 // then press Enter. You can now see whitespace characters in your code.
 public class Main {
@@ -22,6 +27,10 @@ public class Main {
         animal.showMessages("Hello", "Hi");
         animal.showMessages("One");
         animal.showMessages("One", "Two", "Three");
+
+        Random r = new Random();
+        int random = r.nextInt(15);
+        System.out.println(random);
 
     }
 }
