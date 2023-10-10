@@ -22,6 +22,9 @@ public class Main {
     }
 }
 
+/**
+ * Animal class
+ */
 class Animal{
     private String name;
 
@@ -39,3 +42,8 @@ class Animal{
         this.name = name;
     }
 }
+// 1h:05m
+
+/*
+multiple lines
+*/
